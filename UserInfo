@@ -1,0 +1,9 @@
+package com.example.healthtech
+
+data class UserInfo(
+    var weight: String = "",
+    var height: String = "",
+    val allergy: String = ""
+)
+
+
